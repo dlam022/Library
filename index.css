@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDE0D4;
+    padding: 10px;
+}
+
+.container {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add {
+    padding: 20px;
+    border-radius: 10%;
+    border-style: none;
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+#add:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Shadow on hover */
+}
+
+
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    width: 20%; 
+    height: 40%;
+    text-align: center;
+    
+}
+
+.close-btn {
+    text-align: right;
+}
+
+#close {
+    cursor: pointer;
+    border: none;
+    background-color: none;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+    /* padding-top: 50px; */
+    justify-content: center;
+    
+}
+
+
+.group {
+    display: grid;
+    gap: 20px;
+}
+
+.group-read {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    /* width: 50%; */
+    
+}
+
+.advance-form {
+    display: none;
+}
+
+.submit-div {
+    text-align: center;
+}
+
+#submitBtn {
+    width: 40%;
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: #fb923c;
+    border-style: none;
+}
+
+#submitBtn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5); /* Shadow on hover */
+}
+
+#readStatus {
+    cursor: pointer;
+}
+
+.book-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.in-container {
+    border: 1px solid black;
+    background-color: burlywood;
+    width: 10%;
+    height: 200px;
+    border-radius: 10%;
+    display: grid;
+    padding-left: 10px;
+}
+
+.btn-container {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.delete-book {
+    border-style: none;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.read-stat {
+    cursor: pointer;
+}
+
